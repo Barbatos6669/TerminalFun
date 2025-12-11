@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+g++  -std=c++17 -Wall -Wextra -pedantic main.cpp -o monitor
+
+echo "Build succeded"
